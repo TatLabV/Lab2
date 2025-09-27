@@ -1,5 +1,5 @@
 num1 = input("Введите первое число: ")
-if not num1.replace('.', '').isdigit():  # Проверка "это число?"
+if not num1.replace('.', '').isdigit():  #Проверка "это число?"
     print("Ошибка: нужно вводить числа!")
 else:
     num1 = float(num1)
@@ -12,3 +12,4 @@ else:
             print("Ошибка: на ноль делить нельзя!")
         else:
             print(f"Результат: {num1 / num2:.2f}")
+
